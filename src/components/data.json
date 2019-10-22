@@ -1,0 +1,3921 @@
+[
+    {
+      "ID": 130823,
+      "UUID": "E30CD08A-E7F2-42DD-B6FD-94BF3FE971A3",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 3354,
+      "OperatorInfo": {
+        "WebsiteURL": "https://k-lataus.fi",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3354,
+        "Title": "K Lataus"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 4,
+      "UsageType": {
+        "IsPayAtLocation": false,
+        "IsMembershipRequired": true,
+        "IsAccessKeyRequired": true,
+        "ID": 4,
+        "Title": "Public - Membership Required"
+      },
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 131169,
+        "Title": "Neste K-Liikenneasema Linnatuuli (to south)",
+        "AddressLine1": "Helsingintie 1426",
+        "AddressLine2": "12400 Janakkala",
+        "Town": "Janakkala",
+        "StateOrProvince": "Kanta-Häme",
+        "Postcode": "12400",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 60.8542324848567,
+        "Longitude": 24.5964551665738,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 2,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-08-24T10:50:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-08-17T09:50:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 183158,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": 32,
+          "Voltage": 230,
+          "PowerKW": 22.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 130822,
+      "UUID": "D8976FDA-1F56-4438-BD4D-A9342598B4BB",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 3354,
+      "OperatorInfo": {
+        "WebsiteURL": "https://k-lataus.fi",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3354,
+        "Title": "K Lataus"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 4,
+      "UsageType": {
+        "IsPayAtLocation": false,
+        "IsMembershipRequired": true,
+        "IsAccessKeyRequired": true,
+        "ID": 4,
+        "Title": "Public - Membership Required"
+      },
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 131168,
+        "Title": "Neste K-Liikenneasema Linnatuuli (to north)",
+        "AddressLine1": "Helsingintie 1426",
+        "AddressLine2": "12400 Janakkala",
+        "Town": "Janakkala",
+        "StateOrProvince": "Kanta-Häme",
+        "Postcode": "12400",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 60.8552362147167,
+        "Longitude": 24.5974905710851,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 2,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-08-24T10:50:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-08-17T09:43:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 183157,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": 32,
+          "Voltage": 230,
+          "PowerKW": 22.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 129726,
+      "UUID": "66A089EF-8C4D-45B1-A389-6821F77FF0F7",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 198,
+      "OperatorInfo": {
+        "WebsiteURL": "https://chargedrive.com/",
+        "Comments": null,
+        "PhonePrimaryContact": " +358 40 709 5566 ",
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": "rami.syvari@fortum.com",
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 198,
+        "Title": "Charge & Drive"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 130072,
+        "Title": "ABC Särkisalmi",
+        "AddressLine1": "Rinnekatu 1",
+        "AddressLine2": null,
+        "Town": "Särkisalmi",
+        "StateOrProvince": null,
+        "Postcode": "59310",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 61.6037845419238,
+        "Longitude": 29.4829909074841,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": "https://www.abcasemat.fi/fi/asemat/abc-sarkisalmi-parikkala-666714522",
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 4,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-09-16T09:50:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-07-24T15:05:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 181584,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": 125,
+          "Voltage": 400,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 181585,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": 125,
+          "Voltage": 500,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 181586,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": 32,
+          "Voltage": 400,
+          "PowerKW": 22.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 129725,
+      "UUID": "909B05CA-D340-4589-A20A-6F0EF93CB231",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 3354,
+      "OperatorInfo": {
+        "WebsiteURL": "https://k-lataus.fi",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3354,
+        "Title": "K Lataus"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": "Rekisteröityneet asiakkaat Pikalataus 0,20€/min, peruslataus ilmaista Rekisteröitymättömät asiakkaat Pikalataus 0,20 €/min + 1 € aloitusmaksu Peruslataus 0,00 €/min + 1 € aloitusmaksu",
+      "AddressInfo": {
+        "ID": 130071,
+        "Title": "K-Citymarket Veturi, Kouvola",
+        "AddressLine1": "Tervasharjunkatu 1",
+        "AddressLine2": null,
+        "Town": "Kuusankoski",
+        "StateOrProvince": null,
+        "Postcode": "45720",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 60.8758578849085,
+        "Longitude": 26.6537519891262,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": "Pyäköintirivi D",
+        "RelatedURL": "http://www.kauppakeskusveturi.fi/",
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 6,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-07-25T23:02:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-07-24T14:52:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 181581,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        },
+        {
+          "ID": 181582,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        },
+        {
+          "ID": 181583,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 22.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 4,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 129722,
+      "UUID": "FE5AB83F-1CD1-4D60-A10A-CB9183A37B37",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 198,
+      "OperatorInfo": {
+        "WebsiteURL": "https://chargedrive.com/",
+        "Comments": null,
+        "PhonePrimaryContact": " +358 40 709 5566 ",
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": "rami.syvari@fortum.com",
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 198,
+        "Title": "Charge & Drive"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 130068,
+        "Title": "Neste Aapiskukko, Pälkäne",
+        "AddressLine1": "Valtatie 12",
+        "AddressLine2": null,
+        "Town": "Pälkäne",
+        "StateOrProvince": null,
+        "Postcode": "36600",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 61.3472146532768,
+        "Longitude": 24.2573409480467,
+        "ContactTelephone1": "035343075",
+        "ContactTelephone2": null,
+        "ContactEmail": "aapiskukko@aapiskukko.fi",
+        "AccessComments": null,
+        "RelatedURL": "https://aapiskukko.fi/",
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 3,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-09-20T07:34:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-07-24T14:27:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": [
+        {
+          "ID": 21532,
+          "ChargePointID": 129722,
+          "CommentTypeID": 10,
+          "CommentType": {
+            "ID": 10,
+            "Title": "General Comment"
+          },
+          "UserName": "JanG",
+          "Comment": "Clean",
+          "Rating": null,
+          "RelatedURL": null,
+          "DateCreated": "2019-09-20T07:34:15.71Z",
+          "User": {
+            "ID": 22426,
+            "IdentityProvider": null,
+            "Identifier": null,
+            "CurrentSessionToken": null,
+            "Username": "JanG",
+            "Profile": null,
+            "Location": null,
+            "WebsiteURL": null,
+            "ReputationPoints": 1,
+            "Permissions": null,
+            "PermissionsRequested": null,
+            "DateCreated": null,
+            "DateLastLogin": null,
+            "IsProfilePublic": null,
+            "IsEmergencyChargingProvider": null,
+            "IsPublicChargingProvider": null,
+            "Latitude": null,
+            "Longitude": null,
+            "EmailAddress": null,
+            "EmailHash": null,
+            "ProfileImageURL": "https://www.gravatar.com/avatar/cfac28b370609566a27f9e4a0c96c4bc?s=80&d=robohash",
+            "IsCurrentSessionTokenValid": null,
+            "APIKey": null,
+            "SyncedSettings": null
+          },
+          "CheckinStatusTypeID": 0,
+          "CheckinStatusType": {
+            "IsPositive": null,
+            "IsAutomatedCheckin": false,
+            "ID": 0,
+            "Title": "Did Not Visit Location"
+          },
+          "IsActionedByEditor": null
+        }
+      ],
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 181574,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": 125,
+          "Voltage": 500,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 181575,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": 125,
+          "Voltage": 500,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 181576,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": 32,
+          "Voltage": 400,
+          "PowerKW": 22.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 129719,
+      "UUID": "7CEC6333-DF66-40C6-8B66-55576ABE7CCA",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 198,
+      "OperatorInfo": {
+        "WebsiteURL": "https://chargedrive.com/",
+        "Comments": null,
+        "PhonePrimaryContact": " +358 40 709 5566 ",
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": "rami.syvari@fortum.com",
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 198,
+        "Title": "Charge & Drive"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 130065,
+        "Title": "Teboil Patalahti",
+        "AddressLine1": "Patalahdentie 16",
+        "AddressLine2": null,
+        "Town": "Jämsä",
+        "StateOrProvince": null,
+        "Postcode": "42100",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 61.8700689140419,
+        "Longitude": 25.2352631203976,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": "https://map.chargedrive.com/fi/",
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 4,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-07-25T23:02:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-07-24T14:11:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 181568,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": 125,
+          "Voltage": 500,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 181569,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": 125,
+          "Voltage": 500,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 181570,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": 32,
+          "Voltage": 400,
+          "PowerKW": 22.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 129717,
+      "UUID": "A08D36BB-4CAF-4459-A3A0-853D72EC6A3D",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 198,
+      "OperatorInfo": {
+        "WebsiteURL": "https://chargedrive.com/",
+        "Comments": null,
+        "PhonePrimaryContact": " +358 40 709 5566 ",
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": "rami.syvari@fortum.com",
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 198,
+        "Title": "Charge & Drive"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 130063,
+        "Title": "ABC Oritupa",
+        "AddressLine1": "Valtatie 9,  Orivesi",
+        "AddressLine2": null,
+        "Town": "Orivesi",
+        "StateOrProvince": "Tampereen seutukunta",
+        "Postcode": "35300",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 61.6711806671683,
+        "Longitude": 24.2860133457555,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": "https://map.chargedrive.com/fi/",
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 4,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-07-24T13:58:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-07-24T13:51:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 181564,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": 125,
+          "Voltage": 500,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 181565,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": 125,
+          "Voltage": 500,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 181566,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": 32,
+          "Voltage": 400,
+          "PowerKW": 22.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 129714,
+      "UUID": "B1A73797-FB71-471A-808C-508A58FD3E5F",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 3354,
+      "OperatorInfo": {
+        "WebsiteURL": "https://k-lataus.fi",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3354,
+        "Title": "K Lataus"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 130060,
+        "Title": "K-Citymarket Klaukkala",
+        "AddressLine1": "Viirintie 9",
+        "AddressLine2": null,
+        "Town": "Klaukkala",
+        "StateOrProvince": null,
+        "Postcode": "01800",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 60.3784795106246,
+        "Longitude": 24.7584569461534,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": "Parkkihallissa pohjoisen sisäänkäynnin vieressä. Avoinna ma-pe: 8-21 la: 8-20 su 10-20\r\nInside the parking garage next to the northern exit. Open 8-21 Mon-Fri, 8-20 Sat, 10-20 Sun",
+        "RelatedURL": "https://app.k-lataus.fi/charge-point/5cde8a87c1201400050a2755",
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 6,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-07-24T13:59:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-07-24T12:25:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 181554,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        },
+        {
+          "ID": 181555,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        },
+        {
+          "ID": 181556,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 22.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 4,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 129425,
+      "UUID": "2AB42F6B-FF30-4418-93F9-1240CBDAFAAB",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 3355,
+      "OperatorInfo": {
+        "WebsiteURL": "https://www.motonet.fi/fi/sivut/motolataus/",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3355,
+        "Title": "Motolataus"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": "0.1  or 0.2 Euro/kWh",
+      "AddressInfo": {
+        "ID": 129771,
+        "Title": "Huuhkajankatu",
+        "AddressLine1": "Huuhkajankatu",
+        "AddressLine2": "Launiala",
+        "Town": "Mikkeli",
+        "StateOrProvince": "Mikkelin seutukunta",
+        "Postcode": "50190",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 61.6885115,
+        "Longitude": 27.2996275,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": "Motonet motolataus service.  Loyal customers 0.1 euro/kWh, others 0.2.  Credit can be bought from Motomaatti at the location.  Available 24/7.",
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 3,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-07-22T08:57:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-07-20T02:05:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 181134,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": 125,
+          "Voltage": 500,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 181135,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": 125,
+          "Voltage": 500,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 181136,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": 16,
+          "Voltage": 230,
+          "PowerKW": 11.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 129397,
+      "UUID": "37C75D50-BBB1-49C5-8ED2-BA674285AB6E",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 38,
+      "OperatorInfo": {
+        "WebsiteURL": null,
+        "Comments": "Belgian charging network",
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": null,
+        "ID": 38,
+        "Title": "Lidl"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": "Free",
+      "AddressInfo": {
+        "ID": 129743,
+        "Title": "Lidl Marjamäki",
+        "AddressLine1": "Realparkinkatu 1",
+        "AddressLine2": null,
+        "Town": "Lempäälä",
+        "StateOrProvince": null,
+        "Postcode": "37570",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 61.3674610622602,
+        "Longitude": 23.8003178712979,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": "Open during Lidl business hours",
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 1,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-10-09T01:44:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-07-19T06:49:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 181092,
+          "ConnectionTypeID": 1036,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 1036,
+            "Title": "Mennekes (Type 2, Tethered Connector) "
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": null,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 181093,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": null,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 181094,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 129194,
+      "UUID": "A7B1CA57-B7EA-435C-B198-FC50E1BB9A4F",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 23,
+      "OperatorInfo": {
+        "WebsiteURL": "http://www.teslamotors.com",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": null,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": null,
+        "ID": 23,
+        "Title": "Tesla Motors (Worldwide)"
+      },
+      "OperatorsReference": "51107",
+      "UsageTypeID": 4,
+      "UsageType": {
+        "IsPayAtLocation": false,
+        "IsMembershipRequired": true,
+        "IsAccessKeyRequired": true,
+        "ID": 4,
+        "Title": "Public - Membership Required"
+      },
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 129540,
+        "Title": "Hirsala Golf",
+        "AddressLine1": "Hirsalantie 215",
+        "AddressLine2": null,
+        "Town": "Jorvas",
+        "StateOrProvince": null,
+        "Postcode": "2420",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 60.118454,
+        "Longitude": 24.523133,
+        "ContactTelephone1": "+358 20 7412369",
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 2,
+      "GeneralComments": "2 Tesla Connectors, up to 11kW.Available for customers. Please see front desk.",
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-07-15T16:15:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-07-15T16:15:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 180842,
+          "ConnectionTypeID": 30,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 30,
+            "Title": "Tesla (Model S onwards)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 11.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 129182,
+      "UUID": "4B4BDCAB-0668-45FD-A7F0-945AA6AA66CB",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 23,
+      "OperatorInfo": {
+        "WebsiteURL": "http://www.teslamotors.com",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": null,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": null,
+        "ID": 23,
+        "Title": "Tesla Motors (Worldwide)"
+      },
+      "OperatorsReference": "51103",
+      "UsageTypeID": 4,
+      "UsageType": {
+        "IsPayAtLocation": false,
+        "IsMembershipRequired": true,
+        "IsAccessKeyRequired": true,
+        "ID": 4,
+        "Title": "Public - Membership Required"
+      },
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 129528,
+        "Title": "Holiday Club Saariselkä",
+        "AddressLine1": "Saariseläntie 7",
+        "AddressLine2": null,
+        "Town": "SaariselkÃ¤",
+        "StateOrProvince": null,
+        "Postcode": "99830",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 66.001533,
+        "Longitude": 29.166434,
+        "ContactTelephone1": "+358 300870969",
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 2,
+      "GeneralComments": "2 Tesla Connectors, up to 22kW.Available for customers. Self park.",
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-07-15T16:13:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-07-15T16:13:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 180830,
+          "ConnectionTypeID": 30,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 30,
+            "Title": "Tesla (Model S onwards)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 22.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 128914,
+      "UUID": "D3059DED-B531-429A-B88B-DA23631B25E5",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 1,
+      "OperatorInfo": {
+        "WebsiteURL": null,
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": null,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": null,
+        "ID": 1,
+        "Title": "(Unknown Operator)"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 129260,
+        "Title": "Burger King Keljo",
+        "AddressLine1": "Kylmälahdentie 11",
+        "AddressLine2": "Keljo",
+        "Town": "Jyväskylä",
+        "StateOrProvince": "Jyväskylä sub-region",
+        "Postcode": "FI-40500",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 62.2170104367588,
+        "Longitude": 25.7176069085234,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 1,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-07-08T11:15:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-07-08T07:30:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 180449,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": 30,
+          "Voltage": 230,
+          "PowerKW": 6.0,
+          "CurrentTypeID": 10,
+          "CurrentType": {
+            "Description": "Alternating Current - Single Phase",
+            "ID": 10,
+            "Title": "AC (Single-Phase)"
+          },
+          "Quantity": 1,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 128830,
+      "UUID": "E9BF8AC6-BDE6-4C61-BFCE-68BF8840DFB8",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 38,
+      "OperatorInfo": {
+        "WebsiteURL": null,
+        "Comments": "Belgian charging network",
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": null,
+        "ID": 38,
+        "Title": "Lidl"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": "Free",
+      "AddressInfo": {
+        "ID": 129176,
+        "Title": "Lidl Marjamäki",
+        "AddressLine1": "Realparkinkatu 1",
+        "AddressLine2": null,
+        "Town": "Lempäälä",
+        "StateOrProvince": null,
+        "Postcode": "37570",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 54.7023545,
+        "Longitude": -3.2765753,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": "Open during Lidl opening hours: Mon-Sat: 8-21, Sun: 11-19",
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 1,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-07-02T04:40:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-07-01T06:37:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 180257,
+          "ConnectionTypeID": 1036,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 1036,
+            "Title": "Mennekes (Type 2, Tethered Connector) "
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": null,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": null,
+          "Comments": null
+        },
+        {
+          "ID": 180258,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": null,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": null,
+          "Comments": null
+        },
+        {
+          "ID": 180259,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": null,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": null,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 128827,
+      "UUID": "B121175F-5682-4A60-A7E5-C49D24AEFB13",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 136,
+      "OperatorInfo": {
+        "WebsiteURL": "http://virta.fi/",
+        "Comments": null,
+        "PhonePrimaryContact": "0800-02200",
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 136,
+        "Title": "VIRTA"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": "Free",
+      "AddressInfo": {
+        "ID": 129173,
+        "Title": "K-supermarket Säkylä",
+        "AddressLine1": "Palomiehentie 9",
+        "AddressLine2": null,
+        "Town": "Säkylä",
+        "StateOrProvince": null,
+        "Postcode": "27800",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 61.0454409008521,
+        "Longitude": 22.3574957545728,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 1,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-07-02T04:53:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-07-01T06:26:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 180252,
+          "ConnectionTypeID": 1036,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 1036,
+            "Title": "Mennekes (Type 2, Tethered Connector) "
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": null,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": null,
+          "Comments": null
+        },
+        {
+          "ID": 180253,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 1,
+          "Comments": null
+        },
+        {
+          "ID": 180254,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": null,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 128819,
+      "UUID": "DE7DC1FA-00C9-4117-B470-46E5B62E56DB",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 3354,
+      "OperatorInfo": {
+        "WebsiteURL": "https://k-lataus.fi",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3354,
+        "Title": "K Lataus"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": "Registered user: Fast charging: 0.2€/min. Type 2: free. Without registration: Fast charging 1€+0.2€/min. Type 2: 1€ per started charge.",
+      "AddressInfo": {
+        "ID": 129165,
+        "Title": "K-Citymarket Westeri",
+        "AddressLine1": "Tesomankatu 4",
+        "AddressLine2": null,
+        "Town": "Tampere",
+        "StateOrProvince": null,
+        "Postcode": "33310",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 61.5051881346708,
+        "Longitude": 23.6281921264729,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": "Mon-Fri 7:30-22, Sat 9-22, Sun 11-22",
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 6,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-07-01T05:34:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-06-29T21:01:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 180239,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 22.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 4,
+          "Comments": null
+        },
+        {
+          "ID": 180240,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        },
+        {
+          "ID": 180241,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 128818,
+      "UUID": "2D93ABC0-CB1C-4100-9216-475E75E925F0",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 3354,
+      "OperatorInfo": {
+        "WebsiteURL": "https://k-lataus.fi",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3354,
+        "Title": "K Lataus"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": "Registered user: Fast charging: 0.2€/min. Type 2: free. Without registration: Fast charging 1€+0.2€/min. Type 2: 1€ per started charge.",
+      "AddressInfo": {
+        "ID": 129164,
+        "Title": "K-Citymarket Linnainmaa",
+        "AddressLine1": "Mäentakusenkatu 1",
+        "AddressLine2": null,
+        "Town": "Tampere",
+        "StateOrProvince": null,
+        "Postcode": "33580",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 61.4967307107766,
+        "Longitude": 23.8882935527292,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": "mon-sat 8-21\r\nsun 10-21",
+        "RelatedURL": null,
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 6,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-07-01T05:35:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-06-29T20:56:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 180236,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 22.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 4,
+          "Comments": null
+        },
+        {
+          "ID": 180237,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        },
+        {
+          "ID": 180238,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 128810,
+      "UUID": "0629C54B-49A4-45AD-BDA7-5187391726E7",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 3354,
+      "OperatorInfo": {
+        "WebsiteURL": "https://k-lataus.fi",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3354,
+        "Title": "K Lataus"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 129156,
+        "Title": "K-Citymarket Kajaani",
+        "AddressLine1": "Kauppakatu 10",
+        "AddressLine2": null,
+        "Town": "Kajaani",
+        "StateOrProvince": null,
+        "Postcode": "87100",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 64.2230105726017,
+        "Longitude": 27.7359844103266,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": null,
+        "RelatedURL": "https://app.k-lataus.fi/charge-point/5ced34841bc11d0006006cc4",
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 6,
+      "GeneralComments": null,
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-07-02T04:29:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-06-28T18:13:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 180219,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        },
+        {
+          "ID": 180220,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        },
+        {
+          "ID": 180221,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 22.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 4,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 128356,
+      "UUID": "6F499411-DE5B-497A-A746-88A57A760D02",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 3354,
+      "OperatorInfo": {
+        "WebsiteURL": "https://k-lataus.fi",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3354,
+        "Title": "K Lataus"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 128702,
+        "Title": "K-Citymarket Joensuu Pilkko",
+        "AddressLine1": "Linjatie 2",
+        "AddressLine2": null,
+        "Town": "Joensuu",
+        "StateOrProvince": null,
+        "Postcode": "80140",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 62.6288314895954,
+        "Longitude": 29.703454938175582,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": "24/7",
+        "RelatedURL": "https://www.k-ruoka.fi/kauppa/k-citymarket-joensuu-pilkko",
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 6,
+      "GeneralComments": "For status and cost: https://app.k-lataus.fi/charge-point/5b73d9fef62cea3b06038993",
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-06-24T09:26:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-06-22T10:38:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 179664,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        },
+        {
+          "ID": 179665,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        },
+        {
+          "ID": 179666,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 22.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 4,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    },
+    {
+      "ID": 128355,
+      "UUID": "9B4BC158-9A9E-4370-A054-0B9B56FB20B1",
+      "ParentChargePointID": null,
+      "DataProviderID": 1,
+      "DataProvider": {
+        "WebsiteURL": "http://openchargemap.org",
+        "Comments": null,
+        "DataProviderStatusType": {
+          "IsProviderEnabled": true,
+          "ID": 1,
+          "Title": "Manual Data Entry"
+        },
+        "IsRestrictedEdit": false,
+        "IsOpenDataLicensed": true,
+        "IsApprovedImport": true,
+        "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "DateLastImported": null,
+        "ID": 1,
+        "Title": "Open Charge Map Contributors"
+      },
+      "DataProvidersReference": null,
+      "OperatorID": 3354,
+      "OperatorInfo": {
+        "WebsiteURL": "https://k-lataus.fi",
+        "Comments": null,
+        "PhonePrimaryContact": null,
+        "PhoneSecondaryContact": null,
+        "IsPrivateIndividual": false,
+        "AddressInfo": null,
+        "BookingURL": null,
+        "ContactEmail": null,
+        "FaultReportEmail": null,
+        "IsRestrictedEdit": false,
+        "ID": 3354,
+        "Title": "K Lataus"
+      },
+      "OperatorsReference": null,
+      "UsageTypeID": 1,
+      "UsageType": {
+        "IsPayAtLocation": null,
+        "IsMembershipRequired": null,
+        "IsAccessKeyRequired": null,
+        "ID": 1,
+        "Title": "Public"
+      },
+      "UsageCost": null,
+      "AddressInfo": {
+        "ID": 128701,
+        "Title": "K-Citymarket Rovaniemi",
+        "AddressLine1": "Pulkamontie 1",
+        "AddressLine2": null,
+        "Town": "Saarenkylä",
+        "StateOrProvince": null,
+        "Postcode": "96900",
+        "CountryID": 79,
+        "Country": {
+          "ISOCode": "FI",
+          "ContinentCode": "EU",
+          "ID": 79,
+          "Title": "Finland"
+        },
+        "Latitude": 66.5186279366747,
+        "Longitude": 25.7542531382185,
+        "ContactTelephone1": null,
+        "ContactTelephone2": null,
+        "ContactEmail": null,
+        "AccessComments": "24/7",
+        "RelatedURL": "https://www.k-ruoka.fi/kauppa/k-citymarket-rovaniemi",
+        "Distance": null,
+        "DistanceUnit": 0
+      },
+      "NumberOfPoints": 6,
+      "GeneralComments": "For status and cost: https://app.k-lataus.fi/charge-point/5b73dd49f62cea3b06039fbc\r\n",
+      "DatePlanned": null,
+      "DateLastConfirmed": null,
+      "StatusTypeID": 50,
+      "StatusType": {
+        "IsOperational": true,
+        "IsUserSelectable": true,
+        "ID": 50,
+        "Title": "Operational"
+      },
+      "DateLastStatusUpdate": "2019-06-24T09:26:00Z",
+      "DataQualityLevel": 1,
+      "DateCreated": "2019-06-22T10:25:00Z",
+      "SubmissionStatusTypeID": 200,
+      "SubmissionStatus": {
+        "IsLive": true,
+        "ID": 200,
+        "Title": "Submission Published"
+      },
+      "UserComments": null,
+      "PercentageSimilarity": null,
+      "Connections": [
+        {
+          "ID": 179661,
+          "ConnectionTypeID": 2,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": null,
+            "IsObsolete": null,
+            "ID": 2,
+            "Title": "CHAdeMO"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        },
+        {
+          "ID": 179662,
+          "ConnectionTypeID": 33,
+          "ConnectionType": {
+            "FormalName": null,
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 33,
+            "Title": "CCS (Type 2 Version of Combined Coupler)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 3,
+          "Level": {
+            "Comments": "40KW and Higher",
+            "IsFastChargeCapable": true,
+            "ID": 3,
+            "Title": "Level 3:  High (Over 40kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 50.0,
+          "CurrentTypeID": 30,
+          "CurrentType": {
+            "Description": "Direct Current",
+            "ID": 30,
+            "Title": "DC"
+          },
+          "Quantity": 2,
+          "Comments": null
+        },
+        {
+          "ID": 179663,
+          "ConnectionTypeID": 25,
+          "ConnectionType": {
+            "FormalName": "IEC 62196-2 Type 2",
+            "IsDiscontinued": false,
+            "IsObsolete": false,
+            "ID": 25,
+            "Title": "Mennekes (Type 2)"
+          },
+          "Reference": null,
+          "StatusTypeID": 50,
+          "StatusType": {
+            "IsOperational": true,
+            "IsUserSelectable": true,
+            "ID": 50,
+            "Title": "Operational"
+          },
+          "LevelID": 2,
+          "Level": {
+            "Comments": "Over 2 kW, usually non-domestic socket type",
+            "IsFastChargeCapable": false,
+            "ID": 2,
+            "Title": "Level 2 : Medium (Over 2kW)"
+          },
+          "Amps": null,
+          "Voltage": null,
+          "PowerKW": 22.0,
+          "CurrentTypeID": 20,
+          "CurrentType": {
+            "Description": "Alternating Current - Three Phase",
+            "ID": 20,
+            "Title": "AC (Three-Phase)"
+          },
+          "Quantity": 4,
+          "Comments": null
+        }
+      ],
+      "MediaItems": null,
+      "MetadataValues": null,
+      "IsRecentlyVerified": false,
+      "DateLastVerified": null
+    }
+  ]

@@ -1,17 +1,9 @@
-import React, { Component } from 'react';
-import Map from 'pigeon-maps';
-import Marker from 'pigeon-marker';
-import Overlay from 'pigeon-overlay';
+import React from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-
-export default function ChargerMap() {
+export default function ChargerMap(props) {
     return (
-        <Map center={[50.879, 4.6997]} zoom={12} width={600} height={400}>
-            <Marker anchor={[50.874, 4.6947]} payload={1} onClick={({ event, anchor, payload }) => { }} />
-
-            <Overlay anchor={[50.879, 4.6997]} offset={[120, 79]}>
-                <img src='pigeon.jpg' width={240} height={158} alt=''/>
-            </Overlay>
-        </Map>
+        props.data.map(i=><Link to={'/charger/'+i.id} key={i.id}>{i.name}</Link>)
     )
 }
+
