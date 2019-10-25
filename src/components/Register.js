@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-export default function Register() {
+export default function Register(props) {
     const handleSubmit = (event) => {
         event.preventDefault();
         const username = event.target['username'].value;
@@ -35,6 +35,9 @@ export default function Register() {
                     <Form.Control type="password" name="password" placeholder="Password" />
                 </Form.Group>
                 <Button variant="primary" type="submit" value="Register">Register</Button>
+                <Button className="mx-2 btn-secondary"onClick={() => props.history.goBack()}>
+                    Back
+                </Button>
             </Form>
         </Container>
     )

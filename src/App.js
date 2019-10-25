@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Search from './components/Search';
 import Map from './components/Map';
 import ChargerInfo from './components/ChargerInfo';
-//import Login from './components/Login';
-//import Register from './components/Register';
+import Login from './components/Login';
+import Register from './components/Register';
 
 //import Test from "./Test.js";
 import Row from 'react-bootstrap/Row';
@@ -19,15 +19,19 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       data: [],
-      logedin: false,
+      loginToken: null,
       wrongUsernameOrPass: false,
       textInput: "",
       isLoaded: false,
       focusLat: 65.015344000000000000000000000000,
       focusLng: 25.475991000000000000000000000000,
       showingCharger: null,
-      infoHidden: "none"
+      infoHidden: "none",
+      loginDisplay: "block",
+      username: null,
+      take: "none"
     };
+    
   }
 
   componentDidMount() {
@@ -50,6 +54,7 @@ export default class App extends React.Component {
           });
         }
       )
+      
   }
 
   getChargerInfo = id => {
@@ -60,8 +65,8 @@ export default class App extends React.Component {
     this.setState({ textInput: event.target.value });
   }
 
-  logedin = (event) => {
-    this.setState({ logedin: true });
+  loginToken = (token, username) => {
+    this.setState({ loginToken: token, loginDisplay: "none", username: username, take: "block" });
   }
 
   wrongUsernameOrPass = (event) => {
@@ -70,36 +75,47 @@ export default class App extends React.Component {
 
   showInfoOf = id => {
     let chargerInfo = this.getChargerInfo(id);
-    this.setState({ focusLat: chargerInfo.latitude, focusLng: chargerInfo.longitude, showingCharger: chargerInfo.idCharger, infoHidden:"block" });
+    this.setState({ focusLat: chargerInfo.latitude, focusLng: chargerInfo.longitude, showingCharger: chargerInfo.idCharger, infoHidden: "block" });
   }
 
   hideInfo = () => {
-    this.setState({ showingCharger: null, infoHidden: "none", textInput: ""});
+    this.setState({ showingCharger: null, infoHidden: "none", textInput: "" });
   }
-
+  
+  
   render() {
     return (
-        <React.Fragment>
-          <div style={{height: "100%", width: "100%", overflow: "hidden"}}>
-          <Row className="m-0 p-0" style={{ height: "100vh" }}>
-            <Col md="2" className="m-0 p-2">
-              <Search className="" data={this.state.data} textInputChange={this.textInputChange} textInput={this.state.textInput} showInfoOf={this.showInfoOf}> </Search>
-            </Col>
-            <Col md="2" className="m-0 p-2" style={{position:"absolute", "zIndex": 2, "backgroundColor": "white", height: "100vh", display: this.state.infoHidden}} >
-              <ChargerInfo chargerId={this.state.showingCharger} getChargerInfo={this.getChargerInfo} hideInfo={this.hideInfo}></ChargerInfo>
-            </Col>
-            <Col className="p-2">
-              <Row>
-                <button className="ml-auto mr-4  my-2">Login</button>
+      <Router>
+        <Route exact path="/">
+          <React.Fragment>
+            <div style={{ height: "100%", width: "100%", overflow: "hidden" }}>
+              <Row className="m-0 p-0" style={{ height: "100vh" }}>
+                <Col md="2" className="m-0 p-2">
+                  <Search className="" data={this.state.data} textInputChange={this.textInputChange} textInput={this.state.textInput} showInfoOf={this.showInfoOf}> </Search>
+                </Col>
+                <Col md="2" className="m-0 p-2" style={{ position: "absolute", "zIndex": 2, "backgroundColor": "white", height: "100vh", display: this.state.infoHidden }} >
+                  <ChargerInfo chargerId={this.state.showingCharger} getChargerInfo={this.getChargerInfo} hideInfo={this.hideInfo} loginToken={this.state.loginToken} username={this.state.username} take={this.state.take}></ChargerInfo>
+                </Col>
+                <Col className="p-2">
+                  
+                  <Row>
+                    <div className="ml-auto mr-4 my-2" style={{display: this.state.loginDisplay}}>
+                      <Link to="/register"><button className="mr-1">Register</button></Link>
+                      <Link to="/login"><button >Login</button></Link>
+                      </div>
+                  </Row>
+                  <Row className="">
+                    <Map className="w-100 h-100" data={this.state.data} textInput={this.state.textInput} focusLat={this.state.focusLat} focusLng={this.state.focusLng}></Map>
+                  </Row>
+                </Col>
               </Row>
-              <Row className="">
-                <Map className="w-100 h-100" data={this.state.data} textInput={this.state.textInput} focusLat={this.state.focusLat} focusLng={this.state.focusLng}></Map>
-              </Row>
-            </Col>
-          </Row>
-          </div>
-          
-        </React.Fragment>
+            </div>
+          </React.Fragment>
+        </Route>
+        <Route path="/login" exact render={props => <Login {...props} loginToken={this.loginToken}></Login>}></Route>
+        <Route path="/register" exact render={props => <Register {...props} ></Register>}></Route>
+      </Router>
+
 
 
 

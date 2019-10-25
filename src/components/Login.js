@@ -5,24 +5,39 @@ import Button from 'react-bootstrap/Button';
 
 export default function Login(props) {
     var error = null;
-    if (props.stateWrongUsernameOrPass===true) {var error=<div>Wrong username or password</div>;}
+    if (props.stateWrongUsernameOrPass === true) { var error = <div>Wrong username or password</div>; }
     const handleSubmit = (event) => {
         event.preventDefault();
         const username = event.target['username'].value;
         const password = event.target['password'].value;
         const data = JSON.stringify({
-            username: username,
-            password: password
+            "username": username,
+            "password": password
         });
+        
         fetch('http://localhost:4000/login', {
             method: 'POST',
+            body: data,
             headers: {
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
-            },
-            body: data
-        }).then((response)=>console.log(response));
+            }
+
+        }).then(res => res.json()).then(res => {
+            if (res.sucess===true) {
+                props.loginToken(res.token,username);
+                props.history.push('/');
+            } else {
+                const error = new Error(res.error);
+                throw error;
+            }
+        })
+            .catch(err => {
+                console.error(err);
+                alert('Error logging in please try again');
+            });
     }
+
     return (
         <Container>
             <Form onSubmit={handleSubmit}>
@@ -37,6 +52,9 @@ export default function Login(props) {
                     <Form.Control type="password" name="password" placeholder="Password" />
                 </Form.Group>
                 <Button variant="primary" type="submit" value="Login">Login</Button>
+                <Button className="mx-2 btn-secondary" onClick={() => props.history.goBack()}>
+                    Back
+                </Button>
             </Form>
             {error}
         </Container>

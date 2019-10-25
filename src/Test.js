@@ -37,7 +37,8 @@ export default function test() {
                 </Form.Group>
                 <Button variant="primary" type="submit" value="Register">
                     Submit
-                    </Button>
+                </Button>
+                
             </Form>
         </Container>
     )
