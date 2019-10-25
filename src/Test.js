@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
@@ -9,7 +9,8 @@ export default function test() {
         const username = event.target['username'].value;
         const password = event.target['password'].value;
         const data = JSON.stringify({
-            username: username, password: password 
+            username: username, 
+            password: password 
         });
         console.log(data);
         fetch('http://localhost:4000/register', {
