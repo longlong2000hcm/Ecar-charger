@@ -1,5 +1,5 @@
 import React from 'react';
-//import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Search from './components/Search';
@@ -25,7 +25,8 @@ export default class App extends React.Component {
       isLoaded: false,
       focusLat: 65.015344000000000000000000000000,
       focusLng: 25.475991000000000000000000000000,
-      showingCharger: null
+      showingCharger: null,
+      infoHidden: "none"
     };
   }
 
@@ -52,7 +53,7 @@ export default class App extends React.Component {
   }
 
   getChargerInfo = id => {
-    return this.state.data.find(charger => charger.id === id);
+    return this.state.data.find(charger => charger.idCharger === id);
   }
 
   textInputChange = (event) => {
@@ -67,31 +68,39 @@ export default class App extends React.Component {
     this.setState({ wrongUsernameOrPass: true });
   }
 
-  showInfoOf = (id) => {
+  showInfoOf = id => {
     let chargerInfo = this.getChargerInfo(id);
-    this.setState({focusLat: chargerInfo.latitude, focusLng: chargerInfo.longitude, showingCharger: chargerInfo.id});
+    this.setState({ focusLat: chargerInfo.latitude, focusLng: chargerInfo.longitude, showingCharger: chargerInfo.idCharger, infoHidden:"block" });
+  }
+
+  hideInfo = () => {
+    this.setState({ showingCharger: null, infoHidden: "none", textInput: ""});
   }
 
   render() {
     return (
-      <React.Fragment>
-        <Row className="m-0 p-0" style={{height:"100vh"}}>
-          <Col md="2" className="m-0 p-2">
-            <Search className="" data={this.state.data} textInputChange={this.textInputChange} textInput={this.state.textInput} showInfoOf={this.showInfoOf}> </Search>
-            <ChargerInfo exact style={(this.state.showingCharger===null)?"hidden":""} showingCharger={this.state.showingCharger} getChargerInfo={this.getChargerInfo}></ChargerInfo>
-          </Col>
-          <Col className="p-2">
-            <Row>
-              <button className="ml-auto mr-4  my-2">Login</button>
-            </Row>
-            <Row className="">
-              <Map className="w-100 h-100" data={this.state.data} textInput={this.state.textInput} focusLat={this.state.focusLat} focusLng={this.state.focusLng}></Map>
-            </Row>
-          </Col>
-        </Row>
+        <React.Fragment>
+          <div style={{height: "100%", width: "100%", overflow: "hidden"}}>
+          <Row className="m-0 p-0" style={{ height: "100vh" }}>
+            <Col md="2" className="m-0 p-2">
+              <Search className="" data={this.state.data} textInputChange={this.textInputChange} textInput={this.state.textInput} showInfoOf={this.showInfoOf}> </Search>
+            </Col>
+            <Col md="2" className="m-0 p-2" style={{position:"absolute", "zIndex": 2, "backgroundColor": "white", height: "100vh", display: this.state.infoHidden}} >
+              <ChargerInfo chargerId={this.state.showingCharger} getChargerInfo={this.getChargerInfo} hideInfo={this.hideInfo}></ChargerInfo>
+            </Col>
+            <Col className="p-2">
+              <Row>
+                <button className="ml-auto mr-4  my-2">Login</button>
+              </Row>
+              <Row className="">
+                <Map className="w-100 h-100" data={this.state.data} textInput={this.state.textInput} focusLat={this.state.focusLat} focusLng={this.state.focusLng}></Map>
+              </Row>
+            </Col>
+          </Row>
+          </div>
+          
+        </React.Fragment>
 
-
-      </React.Fragment>
 
 
       /* <Router>

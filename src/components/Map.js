@@ -18,7 +18,7 @@ export default function Map(props) {
                 <GoogleMap
                     id="marker-example"
                     mapContainerStyle={{ width: "80vw", height: "90vh" }}
-                    zoom={7}
+                    zoom={10}
                     center={{
                         lat: props.focusLat,
                         lng: props.focusLng
